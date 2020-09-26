@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "Welcome to Post It Fo' Life" #returns a string
-   0
+    
 @app.route('/welcome')
 def welcome():
     return render_template('welcome.html') # render a template
